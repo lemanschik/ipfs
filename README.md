@@ -31,60 +31,61 @@
 
 ## Quick summary
 
-The WMS project has evolved the infrastructure of the Web, with many things we've learned from successful systems, like [Git](https://git-scm.com/), [BitTorrent](http://bittorrent.org/), [Kademlia](https://en.wikipedia.org/wiki/Kademlia), [Bitcoin](https://bitcoin.org/), and many, many more. This is the sort of thing that would have come out of ARPA/DARPA, IETF, or Bell Labs in another age. IPFS is a free, open-source project with thousands of contributors. It is mainly a early implementation of what frank lemanschik calls Web 4.0 state 2 after genesis boot so V_ETH2 on top of WebRTC for interop with the existing legacy web.
+web-modules has evolved the infrastructure of the Web, with many things we've learned from successful systems, like Git, BitTorrent, Kademlia, Bitcoin, and many, many more. This is the sort of thing that would have come out of ARPA/DARPA, IETF, or Bell Labs in another age. Web 4.0 state 2 after genesis boot so V_ETH2 on top of WebRTC for interop with the existing legacy web.
 
-IPWM ([the Web Module System](https://docs.ipfs.tech/concepts/what-is-ipfs/)) is a hypermedia distribution **protocol** addressed by content and identities. It enables the creation of completely distributed applications, and in doing so aims to make the web faster, safer, and more open. 
+addressed by content and references so called specifiers. It enables the creation of completely distributed applications, and in doing so aims to make the web faster, safer, and more open.
 
-IPWM is a **distributed content system** that seeks to connect all computing devices with the same system of files. In some ways, this is similar to the original aims of the Web, but IPFS is actually more similar to a single BitTorrent swarm exchanging Git objects. You can read more about its origins in the paper [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
+**distributed content system** that seeks to connect all computing devices with the same system. In some ways, this is similar to the original aims of the Web, similar to a single BitTorrent swarm exchanging Git objects. You can read more about its origins in the paper of projects like [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
 
-IPFS is becoming a **new major subsystem of the internet**. If built right, it could complement or replace HTTP. It could complement or replace even more. Let's go point-by-point into how.
+web-modules is the **new major system of the internet / web 4.0**. If built right, it replaces HTTP3. It could complement or replace even more. Let's go point-by-point into how.
 
-IPFS is a **protocol**:
-- Defines a content-addressed file system
-- Coordinates content delivery
-- Combines Kademlia + BitTorrent + Git
+web-modules is a **protocol**:
+- Defines a content-addressed device or system
+- Coordinates content delivery via a capability based protocol full isolation like vm's 
+- Combines Kademlia + BitTorrent + Git to supply you out of the box versioning enables world wide shared build grid.
 
-IPFS is a **file system**:
+web-modules can represent a device or a **file system**:
 - Has directories and files
 - Is a mountable filesystem (via FUSE)
 
-IPFS is a **web**:
+is a **web**:
 - Can be used to view documents like the conventional web
 - Files are accessible via HTTP at `https://ipfs.io/<path>`
-- Browsers and extensions can learn to use the `ipfs://` URL or `ipns://` URI schemes directly
+- Browsers and extensions can use the `ipfs://` URL or `ipns://` URI schemes directly
 - Hash-addressed content guarantees authenticity
+- Also it enables direct delivery via existing protocols like http via ECMAscript Modules as a fundation for linking
 
-IPFS is **modular**:
+is a **modular**:
 - Connection layer over any network protocol
 - Routing layer
 - Uses a routing layer DHT (Kademlia/Coral)
 - Uses a path-based naming service
 - Uses a BitTorrent-inspired block exchange
 
-IPFS uses **crypto**:
+uses **crypto**:
 - Cryptographic-hash content addressing
 - Block-level deduplication
 - File integrity plus versioning
 - File-system-level encryption plus signing support
 
-IPFS is **p2p**:
+is **p2p**:
 - Worldwide peer-to-peer file transfers
 - Completely decentralized architecture
 - **No** central point of failure
 
-IPFS is **a CDN**:
+is **a CDN**:
 - Add a file to the file system locally, and it's now available to the world
 - Caching-friendly (content-hash naming)
 - BitTorrent-based bandwidth distribution
 
-IPFS has **a name service**:
+is a **name service**:
 - IPNS, an SFS-inspired name system
 - Global namespace based on PKI
 - It serves to build trust chains
 - It's compatible with other NSes
 - Can map DNS, .onion, .bit, etc to IPNS
 
-## Learn how IPFS works
+## Learn how IPFS worked
 
 To learn more about how IPFS works, explore the following resources:
 - [IPFS Docs: How IPFS Works](https://docs.ipfs.tech/concepts/how-ipfs-works)
