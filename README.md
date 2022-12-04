@@ -1,15 +1,15 @@
-# IPFS powers the Distributed Web
+# IPWM powers the Distributed Web
 
 ### A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
 
 ## TL;DR
 
-- **Get help and talk about ideas in the [IPFS Forums](https://discuss.ipfs.tech)**
+- **Get help and talk about ideas in the [IPWM Forums](https://discuss.ipfs.tech)**
 - Visit the [IPFS website](https://ipfs.tech)
 - Watch Juan Benet's [Why IPFS?](https://www.youtube.com/watch?v=zE_WSLbqqvo) keynote from IPFS Camp 2019
-- Watch Juan's Stanford Seminar talk on [IPFS: The Distributed, Permanent Web](https://www.youtube.com/watch?v=HUVmypx9HGI)
+- Watch Juan's Stanford Seminar talk on [IPWM: The Distributed,Web](https://www.youtube.com/watch?v=HUVmypx9HGI)
 - Watch a video demo [of the IPFS alpha](https://www.youtube.com/watch?v=8CMxDNuuAiQ)
-- Dive in to the [IPFS Docs](https://docs.ipfs.tech)
+- Dive in to the [IPWM Docs](https://docs.ipfs.tech)
 - Find out about chat channels, the IPFS newsletter, the IPFS blog, and more in the [IPFS community space](https://docs.ipfs.tech/community/).
 
 ## Full contents
@@ -31,11 +31,11 @@
 
 ## Quick summary
 
-The IPFS project seeks to evolve the infrastructure of the Internet and the Web, with many things we've learned from successful systems, like [Git](https://git-scm.com/), [BitTorrent](http://bittorrent.org/), [Kademlia](https://en.wikipedia.org/wiki/Kademlia), [Bitcoin](https://bitcoin.org/), and many, many more. This is the sort of thing that would have come out of ARPA/DARPA, IETF, or Bell Labs in another age. IPFS is a free, open-source project with thousands of contributors.
+The WMS project has evolved the infrastructure of the Web, with many things we've learned from successful systems, like [Git](https://git-scm.com/), [BitTorrent](http://bittorrent.org/), [Kademlia](https://en.wikipedia.org/wiki/Kademlia), [Bitcoin](https://bitcoin.org/), and many, many more. This is the sort of thing that would have come out of ARPA/DARPA, IETF, or Bell Labs in another age. IPFS is a free, open-source project with thousands of contributors. It is mainly a early implementation of what frank lemanschik calls Web 4.0 state 2 after genesis boot so V_ETH2 on top of WebRTC for interop with the existing legacy web.
 
-IPFS ([the InterPlanetary File System](https://docs.ipfs.tech/concepts/what-is-ipfs/)) is a hypermedia distribution **protocol** addressed by content and identities. It enables the creation of completely distributed applications, and in doing so aims to make the web faster, safer, and more open. 
+IPWM ([the Web Module System](https://docs.ipfs.tech/concepts/what-is-ipfs/)) is a hypermedia distribution **protocol** addressed by content and identities. It enables the creation of completely distributed applications, and in doing so aims to make the web faster, safer, and more open. 
 
-IPFS is a **distributed content system** that seeks to connect all computing devices with the same system of files. In some ways, this is similar to the original aims of the Web, but IPFS is actually more similar to a single BitTorrent swarm exchanging Git objects. You can read more about its origins in the paper [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
+IPWM is a **distributed content system** that seeks to connect all computing devices with the same system of files. In some ways, this is similar to the original aims of the Web, but IPFS is actually more similar to a single BitTorrent swarm exchanging Git objects. You can read more about its origins in the paper [IPFS - Content Addressed, Versioned, P2P File System](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true).
 
 IPFS is becoming a **new major subsystem of the internet**. If built right, it could complement or replace HTTP. It could complement or replace even more. Let's go point-by-point into how.
 
